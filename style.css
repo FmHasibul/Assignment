@@ -14,9 +14,26 @@ body {
     word-spacing: 2px;
 }
 
-.manu {
-    display: block;
-    margin: 10px 30px;
+.menu-bar {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    background-image: linear-gradient(rgba(60, 57, 57, 0.868), rgba(36, 35, 35, 0.986));
+}
+
+.menu {
+    color: white;
+    text-decoration: none;
+    padding: 10px 50px;
+    font-weight: 500;
+    /* background-color: #201e1eee; */
+}
+
+.menu:hover {
+    font-size: 20px;
+    background-color: #ea7e69;
+    color: black;
+    font-weight: 300;
 }
 
 .intro {
@@ -198,7 +215,7 @@ body {
     text-align: center;
     padding: 50px;
     color: whitesmoke;
-    background-color: rgba(44, 42, 42, 0.847);
+    background-color: #2c2a2ad8;
     font-family: font-family: 'DM Serif Display', serif;
     font-family: 'Gulzar', serif;
     font-family: 'Lobster', cursive;
